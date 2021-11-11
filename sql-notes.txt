@@ -1,0 +1,12 @@
+
+Working with Database: (Microsoft SQL Server)
+
+Constraints in SQL Server:
+
+	1. Primary Key - No Null Values, No Duplicate Values
+	2. Not Null - No Null Values
+	3. Check - To restrict the data with conditions
+	4. Unique - No Duplicate Values including Null
+	5. Foreign Key - To create referential Integrity
+	6. Default - Default value for specific column
+
