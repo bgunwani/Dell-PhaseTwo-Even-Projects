@@ -22,7 +22,7 @@ namespace WebApplicationFundamentals
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,16 +37,19 @@ namespace WebApplicationFundamentals
                 app.UseExceptionHandler("/Error");
             }
 
+            DefaultFilesOptions defaultFilesOptions = new DefaultFilesOptions();
+            defaultFilesOptions.DefaultFileNames.Clear();
+            defaultFilesOptions.DefaultFileNames.Add("dashboard.html");
+            defaultFilesOptions.DefaultFileNames.Add("home.html");
+            // app.UseDefaultFiles();
+            app.UseDefaultFiles(defaultFilesOptions);
             app.UseStaticFiles();
+
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            // app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapRazorPages();
-            });
         }
     }
 }

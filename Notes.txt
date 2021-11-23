@@ -1,0 +1,25 @@
+
+
+ASP.Net MVC Core:
+
+	.Net Core application are platform independent.
+	.Net Core Web Application uses Kestrel Server which is platform independent for running the Web Applications.
+	
+ConfigureServices() and Configure() Methods:
+
+	ConfigureServices() method helps in adding the middlewares, dependencies, configurations and so on.
+	
+	Configure() method helps in uses already added middlewares in Request Pipeline.
+	
+----------------------------------------------------------
+
+app.UseDefaultFiles() Middlware uses wwwroot folder and checks the default files to render.
+
+	index.html
+	index.htm
+	default.html
+	default.htm
+
+app.UseStaticFiles() Middlware helps in using wwwroot folder and their nested files and sub directories.
+
+----------------------------------------------------------
