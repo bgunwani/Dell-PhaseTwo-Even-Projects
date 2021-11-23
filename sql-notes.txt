@@ -10,3 +10,20 @@ Constraints in SQL Server:
 	5. Foreign Key - To create referential Integrity
 	6. Default - Default value for specific column
 
+Joins in SQL Server:
+
+	1. Inner Join / Default Join / Equi Join
+		(Only fetches the matched records from both tables)
+	2. Outer Join (Left / Right / Full)
+	Left Outer Join
+	(All records from Left and Only matched records from Right)
+	Right Outer Join
+	(All records from Right and Only matched records from Left)
+	Full Outer Join
+	(All matched and unmatched records from both tables)
+	4. Self Join(A table Join Itself)
+	5. Cross Join (Cartesian Product)
+		(Each Record of Left Table gets multiplied by each record of right table)
+		Cross Join gets applied implicitly when:
+		a. A join condition is ommitted.
+		b. A join condition is not valid.
