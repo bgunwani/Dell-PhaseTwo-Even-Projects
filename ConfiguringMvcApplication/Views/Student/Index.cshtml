@@ -1,0 +1,35 @@
+﻿
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<a asp-controller="Student" asp-action="Create">Create New Student</a>
+
+<h1>@ViewBag.Message</h1>
+
+<p>There are @ViewBag.StudentCount students in this batch.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.StudentList)
+        {
+            <tr>
+                <td>@item.StudentId</td>
+                <td>@item.Name</td>
+                <td>@item.Gender</td>
+                <td>@item.City</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
