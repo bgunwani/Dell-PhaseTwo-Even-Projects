@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "RequestA";
+}
+
+<h1>RequestA</h1>
+<br />
+<h3>@TempData["Msg"]</h3>
+<br />
+
+@{ 
+    TempData.Keep("Msg");
+}
+
+<a asp-controller="Student" asp-action="RequestB" class="btn btn-secondary">Navigate to Request B</a>
+

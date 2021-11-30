@@ -1,0 +1,33 @@
+﻿
+@model IEnumerable<DataPassingTechniquesApplication.Models.Student>
+
+@{
+    ViewData["Title"] = "BindData";
+}
+
+<h1>Student List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Id</th> 
+            <th>Name</th>
+            <th>Gender</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+      @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.StudentId</td>
+                    <td>@item.Name</td>
+                    <td>@item.Gender</td>
+                    <td>@item.City</td>
+                </tr>
+            }
+    </tbody>
+</table>
+
+
+

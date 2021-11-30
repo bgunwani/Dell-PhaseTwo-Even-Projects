@@ -3,14 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFundamentals", "WebApplicationFundamentals\WebApplicationFundamentals.csproj", "{6C0C094D-77A9-4DFB-B693-9EB960D64E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationFundamentals", "WebApplicationFundamentals\WebApplicationFundamentals.csproj", "{6C0C094D-77A9-4DFB-B693-9EB960D64E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfiguringMvcApplication", "ConfiguringMvcApplication\ConfiguringMvcApplication.csproj", "{5AB15ADF-0D1B-48F7-9FAA-9D1C44B3383E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfiguringMvcApplication", "ConfiguringMvcApplication\ConfiguringMvcApplication.csproj", "{5AB15ADF-0D1B-48F7-9FAA-9D1C44B3383E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{E66D3498-3731-4F06-854A-6A4207661803}"
 	ProjectSection(SolutionItems) = preProject
 		Notes.txt = Notes.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPassingTechniquesApplication", "DataPassingTechniquesApplication\DataPassingTechniquesApplication.csproj", "{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreMVCRepositoryDepdencyInjectionApplication", "coreMVCRepositoryDepdencyInjectionApplication\coreMVCRepositoryDepdencyInjectionApplication.csproj", "{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,14 @@ Global
 		{5AB15ADF-0D1B-48F7-9FAA-9D1C44B3383E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB15ADF-0D1B-48F7-9FAA-9D1C44B3383E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB15ADF-0D1B-48F7-9FAA-9D1C44B3383E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

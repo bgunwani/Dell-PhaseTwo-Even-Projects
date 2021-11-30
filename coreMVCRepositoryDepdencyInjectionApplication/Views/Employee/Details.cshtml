@@ -1,0 +1,15 @@
+﻿
+@model coreMVCRepositoryDepdencyInjectionApplication.Models.Employee
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<br/>
+<p>Employee Id: @Model.EmployeeId</p>
+<p>Employee Name: @Model.Name</p>
+<p>Employee Gender: @Model.Gender</p>
+<p>Employee Designation: @Model.Designation</p>
+<br/>
+<a asp-controller="Employee" asp-action="Index" class="btn btn-secondary">Back to List</a>
