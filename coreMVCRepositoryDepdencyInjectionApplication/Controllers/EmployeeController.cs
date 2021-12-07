@@ -10,7 +10,13 @@ namespace coreMVCRepositoryDepdencyInjectionApplication.Controllers
     public class EmployeeController : Controller
     {
 
-        EmployeeRepository employeeRepository = new EmployeeRepository();
+        // EmployeeRepository employeeRepository = new EmployeeRepository();
+
+        IEmployeeRepository employeeRepository;
+        public EmployeeController(IEmployeeRepository repository)
+        {
+            employeeRepository = repository;
+        }
 
         public IActionResult Index()
         {
@@ -32,6 +38,19 @@ namespace coreMVCRepositoryDepdencyInjectionApplication.Controllers
         {
             employeeRepository.AddEmployee(employee);
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Data([FromServices]IEmployeeRepository repository)
+        {
+            return View(repository.GetEmployees());
+        }
+
+        public IActionResult Info()
+        {
+            var service = this.HttpContext.RequestServices;
+            var _repository = (IEmployeeRepository)service.GetService(typeof(IEmployeeRepository));
+            var employees = _repository.GetEmployees();
+            return View(employees);
         }
     }
 }

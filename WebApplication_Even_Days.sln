@@ -12,9 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{E66D3498
 		Notes.txt = Notes.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPassingTechniquesApplication", "DataPassingTechniquesApplication\DataPassingTechniquesApplication.csproj", "{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPassingTechniquesApplication", "DataPassingTechniquesApplication\DataPassingTechniquesApplication.csproj", "{B741CBAA-6E9B-411B-A178-B86FE71BD2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreMVCRepositoryDepdencyInjectionApplication", "coreMVCRepositoryDepdencyInjectionApplication\coreMVCRepositoryDepdencyInjectionApplication.csproj", "{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreMVCRepositoryDepdencyInjectionApplication", "coreMVCRepositoryDepdencyInjectionApplication\coreMVCRepositoryDepdencyInjectionApplication.csproj", "{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreViewModelApplication", "coreViewModelApplication\coreViewModelApplication.csproj", "{97A082D5-33A5-4157-86B4-AA4394D9C931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstApproachApplication", "CodeFirstApproachApplication\CodeFirstApproachApplication.csproj", "{2207B6BB-7FB1-404A-8A64-83A9C543E747}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,14 @@ Global
 		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2EA39F-92E6-4ABC-8AAF-3A80F0A446A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A082D5-33A5-4157-86B4-AA4394D9C931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A082D5-33A5-4157-86B4-AA4394D9C931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A082D5-33A5-4157-86B4-AA4394D9C931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A082D5-33A5-4157-86B4-AA4394D9C931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

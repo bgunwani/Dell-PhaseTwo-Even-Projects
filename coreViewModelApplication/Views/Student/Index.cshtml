@@ -1,0 +1,25 @@
+﻿
+@model coreViewModelApplication.Models.StudentAddressModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="card">
+    <div class="card-header">Details of @Model.Student.Name</div>
+    <div class="card-body">
+        <p>Student Id : @Model.Student.StudentId</p>
+        <p>Name : @Model.Student.Name</p>
+        <p>Gender : @Model.Student.Gender</p>
+        <p>Subject : @Model.Student.Subject</p>
+        <p>Street Name : @Model.Address.StreetName</p>
+        <p>State : @Model.Address.State</p>
+        <p>City : @Model.Address.City</p>
+        <p>Pincode : @Model.Address.Pincode</p>
+        <p>Country : @Model.Address.Country</p>
+        <p>Message : @Model.Message</p>
+    </div>
+    <div class="card-footer"></div>
+</div>

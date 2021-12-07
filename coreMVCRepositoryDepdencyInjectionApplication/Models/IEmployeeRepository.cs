@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace coreMVCRepositoryDepdencyInjectionApplication.Models
 {
-    interface IEmployeeRepository
+    public interface IEmployeeRepository
     {
         IList<Employee> GetEmployees();
         Employee GetEmployeeById(int employeeId);
