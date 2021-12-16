@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreMVCRepositoryDepdencyIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreViewModelApplication", "coreViewModelApplication\coreViewModelApplication.csproj", "{97A082D5-33A5-4157-86B4-AA4394D9C931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstApproachApplication", "CodeFirstApproachApplication\CodeFirstApproachApplication.csproj", "{2207B6BB-7FB1-404A-8A64-83A9C543E747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstApproachApplication", "CodeFirstApproachApplication\CodeFirstApproachApplication.csproj", "{2207B6BB-7FB1-404A-8A64-83A9C543E747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreCodeFirstRelationshipsApplications", "coreCodeFirstRelationshipsApplications\coreCodeFirstRelationshipsApplications.csproj", "{AED11259-EEEE-47A3-932E-0F5900558876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2207B6BB-7FB1-404A-8A64-83A9C543E747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED11259-EEEE-47A3-932E-0F5900558876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED11259-EEEE-47A3-932E-0F5900558876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED11259-EEEE-47A3-932E-0F5900558876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED11259-EEEE-47A3-932E-0F5900558876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
